@@ -12,7 +12,7 @@ public class ClientManagement {
      * Creates Client object that is then added to the clients ArrayList
      * Date of birth is entered, from which age is calculated and shown if client is searched for or client list is shown
      * Date of birth must be entered in the "dd.MM.yyyy" format, otherwise user is asked to re-enter date of birth until the format is correct
-     * If name or surname contains any number,special character or more than one name, user is asked to re-enter the name or surname
+     * If name or surname contains any number,special character or more than one name, user is asked if they really want to add the name. 
      */
     public void addClient() {
         NameValidation validation = new NameValidation();
